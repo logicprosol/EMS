@@ -272,16 +272,7 @@ namespace CMS.Forms.Admin
             btnDelete.Visible = false;
             btnSave.Visible = true;
         }
-        public void clear1()
-        {
-            ddlHostel.ClearSelection();
-            txtHostelType.Text = "";
-            txtRoom.Text = "";
-            txtStudentCount.Text = "";
-            btnUpdate.Visible = false;
-            btnDelete.Visible = false;
-            btnSave.Visible = true;
-        }
+       
         protected void btnDelete_Click(object sender, EventArgs e)
         {
             try
